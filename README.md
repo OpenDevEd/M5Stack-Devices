@@ -1,10 +1,10 @@
 # **M5Stack Notes**
 
-This repository documents a detailed exploration of the M5Stack hardware ecosystem, focusing on building small interactive devices that combine motion sensing, audio playback, LEDs, haptics, RFID, and ultra–low-power operation.
+This repository documents a detailed exploration of the M5Stack hardware ecosystem, focusing on building small interactive devices that combine motion sensing, audio playback, LEDs, haptics, RFID, and ultra-low-power operation.
 
 The research compares different families of M5Stack devices, evaluates their expandability, and maps out which modules, batteries, and accessories are compatible with each hardware form factor.
 
-Device and accessory reference tables are included separately in this repository.
+Device and accessory reference tables are included below.
 
 
 
@@ -42,7 +42,7 @@ These devices can play short sounds when moved, light up LEDs, vibrate, or react
 
 
 
-## 3. Ultra–Low-Power Behaviour and RTC-Based Wake-Up
+## 3. Ultra-Low-Power Behaviour and RTC-Based Wake-Up
 
 To create devices that run for long periods and only wake occasionally, true **power gating** is required — not just ESP32 deep sleep.
 
@@ -144,7 +144,7 @@ These allow embedding M5Stack hardware into toys, enclosures, and kinetic experi
 RGB LED capabilities vary by device:
 
 * **ATOM Matrix** offers a 25-pixel NeoPixel matrix
-* **Core Fire**, **M5GO**, **Core2 AWS EducKit** include 10-pixel LED bars in their M5GO bottoms
+* **Core Fire**, **M5GO**, **Core2 AWS EduKit** include 10-pixel LED bars in their M5GO bottoms
 * **StickC PLUS2**, **ATOM Lite**, **ATOM Echo** each include a single RGB LED
 * **CoreS3** has no onboard NeoPixels but works with M5GO Bottom3
 
@@ -258,7 +258,7 @@ These tables include detailed information on:
 | Accessory                               | What it does             | Footprint compatibility             | Where used                     |
 | --------------------------------------- | ------------------------ | ----------------------------------- | ------------------------------ |
 |   M5Stamp Timer Power                   | RTC + timed power gating | Universal (wired)                   | Ultra-low-power / wake control |
-|   M5StickCPLUS Speaker Hat (MAX98357)   | Adds digital speaker     | Stick family                        | Audio output                   |
+|   M5StickC PLUS Speaker Hat (MAX98357)   | Adds digital speaker     | Stick family                        | Audio output                   |
 |   Atomic Battery Base                   | 200 mAh battery          | ATOM footprint                      | Portable ATOM builds           |
 |   SandwichC Brick (x3)                  | Lego-compatible adapter  | Universal mechanical                | Mounting                       |
 |   RFID Unit 2 (WS1850S)                 | RFID reader              | Any Grove-enabled device            | NFC-like reading               |
@@ -273,4 +273,4 @@ These tables include detailed information on:
 
 # Acknowledgement
 
-Generated with help from LLMs (ChatGPT, Claude, Gemini).
+Generated with help from LLMs (ChatGPT, Claude, Gemini, Cursor).
