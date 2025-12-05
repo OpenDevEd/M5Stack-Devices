@@ -236,20 +236,20 @@ These tables include detailed information on:
 
 ### 📦   DEVICE TABLE
 
-|   Device             | Family       | 12-pin M-Bus | IMU | Mag | Display    | Speaker | Battery | SD | Vib | Camera | Mics   | RTC | Extra LEDs        | Where the pixels live        |
-| -------------------- | ------------ | ------------ | --- | --- | ---------- | ------- | ------- | -- | --- | ------ | ------ | --- | ----------------- | ---------------------------- |
-|   CoreS3             | Core (new)   | ✘            | ✔   | ✔   | 2.0" touch | ✔       | ✔       | ✔  | ✘   | ✔      | ✔ dual | ✔   | 0                 | None (unless adding Bottom3) |
-| CoreS3 SE            | Core (new)   | ✘            | ✘   | ✘   | 2.0" touch | ✔       | ✘       | ✔  | ✘   | ✔      | ✔ dual | ✔   | 0                 | None                         |
-| Core (Original)      | Core classic | ✔            | ✘   | ✘   | 2.0" LCD   | ✔       | ✘       | ✔  | ✘   | ✘      | ✘      | ✔   | 0                 | None                         |
-| Core2                | Core classic | ✔            | ✔   | ✘   | 2.0" touch | ✔       | ✔       | ✔  | ✔   | ✘      | ✔      | ✔   | 0 (10 w/ Bottom2) | LEDs in Bottom2 only         |
-| Core Fire            | Core classic | ✔            | ✔   | ✔   | 2.0" LCD   | ✔       | ✔       | ✔  | ✘   | ✘      | ✘      | ✔   |   10 SK6812       | In M5GO base                 |
-| M5GO (Core kit)      | Core classic | ✔            | ✔   | ✘   | 2.0" IPS   | ✔       | ✔       | ✘  | ✘   | ✘      | ✔      | ✔   |   10 LEDs         | In M5GO base                 |
-|   Core2 AWS EduKit   | Core classic | ✔            | ✔   | ✘   | 2.0" touch | ✔       | ✔       | ✔  | ✔   | ✘      | ✔      | ✔   |   10 LEDs         | In M5GO Bottom2              |
-| M5StickC PLUS        | Stick        | ✘            | ✔   | ✘   | Small TFT  | Buzzer  | ✔       | ✘  | ✘   | ✘      | ✔      | ✔   | 0                 | None                         |
-|   M5StickC PLUS2     | Stick        | ✘            | ✔   | ✘   | IPS TFT    | Buzzer  | ✔       | ✘  | ✔   | ✘      | ✔      | ✔   |   1 RGB           | On StickC PLUS2 main board   |
-|   ATOM Matrix        | ATOM         | ✘            | ✔   | ✘   | 5×5 LEDs   | ✘       | ✘       | ✘  | ✘   | ✘      | ✘      | ✘   |   25 WS2812       | On front LED matrix          |
-| ATOM Lite            | ATOM         | ✘            | ✘   | ✘   | None       | ✘       | ✘       | ✘  | ✘   | ✘      | ✘      | ✘   |   1 RGB           | On main board                |
-| ATOM Echo            | ATOM         | ✘            | ✘   | ✘   | None       | ✔       | ✘       | ✘  | ✘   | ✘      | ✔      | ✘   |   1 RGB           | On main board                |
+|   Device             | Family       | 12-pin M-Bus | IMU | Mag | Display    | Speaker | Battery | SD | Vib | Camera | Mics   | RTC | Extra LEDs        | Where the pixels live        | PiHut Link |
+| -------------------- | ------------ | ------------ | --- | --- | ---------- | ------- | ------- | -- | --- | ------ | ------ | --- | ----------------- | ---------------------------- | ---------- |
+|   CoreS3             | Core (new)   | ✘            | ✔   | ✔   | 2.0" touch | ✔       | ✔       | ✔  | ✘   | ✔      | ✔ dual | ✔   | 0                 | None (unless adding Bottom3) | [Search](https://thepihut.com/search?q=M5Stack%20CoreS3) |
+| CoreS3 SE            | Core (new)   | ✘            | ✘   | ✘   | 2.0" touch | ✔       | ✘       | ✔  | ✘   | ✔      | ✔ dual | ✔   | 0                 | None                         | [Search](https://thepihut.com/search?q=M5Stack%20CoreS3%20SE) |
+| Core (Original)      | Core classic | ✔            | ✘   | ✘   | 2.0" LCD   | ✔       | ✘       | ✔  | ✘   | ✘      | ✘      | ✔   | 0                 | None                         | [Search](https://thepihut.com/search?q=M5Stack%20Core) |
+| Core2                | Core classic | ✔            | ✔   | ✘   | 2.0" touch | ✔       | ✔       | ✔  | ✔   | ✘      | ✔      | ✔   | 0 (10 w/ Bottom2) | LEDs in Bottom2 only         | [Search](https://thepihut.com/search?q=M5Stack%20Core2) |
+| Core Fire            | Core classic | ✔            | ✔   | ✔   | 2.0" LCD   | ✔       | ✔       | ✔  | ✘   | ✘      | ✘      | ✔   |   10 SK6812       | In M5GO base                 | [Search](https://thepihut.com/search?q=M5Stack%20Core%20Fire) |
+| M5GO (Core kit)      | Core classic | ✔            | ✔   | ✘   | 2.0" IPS   | ✔       | ✔       | ✘  | ✘   | ✘      | ✔      | ✔   |   10 LEDs         | In M5GO base                 | [Search](https://thepihut.com/search?q=M5Stack%20M5GO) |
+|   Core2 AWS EduKit   | Core classic | ✔            | ✔   | ✘   | 2.0" touch | ✔       | ✔       | ✔  | ✔   | ✘      | ✔      | ✔   |   10 LEDs         | In M5GO Bottom2              | [Search](https://thepihut.com/search?q=M5Stack%20Core2%20AWS%20EduKit) |
+| M5StickC PLUS        | Stick        | ✘            | ✔   | ✘   | Small TFT  | Buzzer  | ✔       | ✘  | ✘   | ✘      | ✔      | ✔   | 0                 | None                         | [Search](https://thepihut.com/search?q=M5StickC%20PLUS) |
+|   M5StickC PLUS2     | Stick        | ✘            | ✔   | ✘   | IPS TFT    | Buzzer  | ✔       | ✘  | ✔   | ✘      | ✔      | ✔   |   1 RGB           | On StickC PLUS2 main board   | [Search](https://thepihut.com/search?q=M5StickC%20PLUS2) |
+|   ATOM Matrix        | ATOM         | ✘            | ✔   | ✘   | 5×5 LEDs   | ✘       | ✘       | ✘  | ✘   | ✘      | ✘      | ✘   |   25 WS2812       | On front LED matrix          | [Search](https://thepihut.com/search?q=M5Stack%20ATOM%20Matrix) |
+| ATOM Lite            | ATOM         | ✘            | ✘   | ✘   | None       | ✘       | ✘       | ✘  | ✘   | ✘      | ✘      | ✘   |   1 RGB           | On main board                | [Search](https://thepihut.com/search?q=M5Stack%20ATOM%20Lite) |
+| ATOM Echo            | ATOM         | ✘            | ✘   | ✘   | None       | ✔       | ✘       | ✘  | ✘   | ✘      | ✔      | ✘   |   1 RGB           | On main board                | [Search](https://thepihut.com/search?q=M5Stack%20ATOM%20Echo) |
 
 
 
